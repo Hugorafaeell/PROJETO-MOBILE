@@ -1,117 +1,74 @@
-/* Reset básico */
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 }
 
-/* Corpo da página */
 body{
-font-family: Arial, Helvetica, sans-serif;
-background:#f4f4f4;
+font-family:Arial, Helvetica, sans-serif;
+background:#e9e9e9;
 }
 
-/* Cabeçalho */
+
+
 header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:#2c7a2c;
+background:#198754;
 color:white;
 padding:15px;
 }
 
-/* Logo */
-header img{
-width:40px;
-}
-
-/* Menu */
-nav a{
+header nav a{
 color:white;
-text-decoration:none;
 margin-left:15px;
+text-decoration:none;
 font-weight:bold;
 }
 
-nav a:hover{
-text-decoration:underline;
-}
 
-/* Container principal */
+
 .container{
-display:grid;
-grid-template-columns:1fr 1fr 1fr;
-gap:20px;
-padding:20px;
+background:rgb(143, 67, 67);
+padding:30px;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+margin-top:20px;
 }
 
-/* Colunas */
-.container div{
-background:white;
-padding:15px;
-border-radius:5px;
-box-shadow:0 0 5px rgba(0,0,0,0.1);
-}
 
-/* Galeria da home */
-.grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:10px;
-margin-top:10px;
-}
 
-.grid img{
+img{
 width:100%;
 border-radius:5px;
 }
 
-/* Formulário */
-form{
-margin-top:15px;
-}
+
 
 input{
 width:100%;
-padding:8px;
-margin-top:5px;
+padding:10px;
+margin-top:10px;
+border-radius:5px;
+border:1px solid #ccc;
 }
 
 button{
 margin-top:10px;
 padding:10px;
-background:#2c7a2c;
+background:#198754;
 color:white;
 border:none;
+border-radius:5px;
 cursor:pointer;
 }
 
 button:hover{
-background:#1e521e;
+background:#157347;
 }
 
-/* Galeria de imagens */
-.grid3{
-display:grid;
-grid-template-columns:1fr 1fr 1fr;
-gap:10px;
-padding:20px;
-}
 
-.grid3 img{
-width:100%;
-border-radius:5px;
-}
 
-/* Vídeos */
-iframe{
-margin:10px;
-}
-
-/* Rodapé */
 footer{
-background:#2c7a2c;
+background:#198754;
 color:white;
 text-align:center;
 padding:15px;
